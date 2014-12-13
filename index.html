@@ -53,7 +53,7 @@
 		      google.maps.event.addDomListener(window, 'load', initialize);
     	</script>
     	<script>
-			var end = new Date('02/28/2015 10:1 AM');
+			var end = new Date('12/13/2014 00:01 AM');
 
 		    var _second = 1000;
 		    var _minute = _second * 60;
@@ -76,10 +76,10 @@
 		        var minutes = Math.floor((distance % _hour) / _minute);
 		        var seconds = Math.floor((distance % _minute) / _second);
 
-		        document.getElementById('countdown').innerHTML = days + 'days ';
-		        document.getElementById('countdown').innerHTML += hours + 'hrs ';
-		        document.getElementById('countdown').innerHTML += minutes + 'mins ';
-		        document.getElementById('countdown').innerHTML += seconds + 'secs';
+		        document.getElementById('countdown').innerHTML = days + 'dias ';
+		        document.getElementById('countdown').innerHTML += hours + 'horas ';
+		        document.getElementById('countdown').innerHTML += minutes + 'minutos ';
+		        document.getElementById('countdown').innerHTML += seconds + 'segundos';
 		    }
 
 		    timer = setInterval(showRemaining, 1000);
