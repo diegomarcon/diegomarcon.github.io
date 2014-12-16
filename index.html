@@ -72,14 +72,8 @@
 		            return;
 		        }
 		        var days = Math.floor(distance / _day);
-		        var hours = Math.floor((distance % _day) / _hour);
-		        var minutes = Math.floor((distance % _hour) / _minute);
-		        var seconds = Math.floor((distance % _minute) / _second);
 
 		        document.getElementById('countdown').innerHTML = days + 'dias ';
-		        document.getElementById('countdown').innerHTML += hours + 'horas ';
-		        document.getElementById('countdown').innerHTML += minutes + 'minutos ';
-		        document.getElementById('countdown').innerHTML += seconds + 'segundos';
 		    }
 
 		    timer = setInterval(showRemaining, 1000);
@@ -119,7 +113,7 @@
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#padrinhos" id="padrinhos-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Padrinhos</span></a></li>
 								<li><a href="#confirm" id="confirm-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Confirmar Presença</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Lista de Presentes</span></a></li>
 								<li><a href="#maps" id="maps-link" class="skel-layers-ignoreHref"><span class="icon fa-dribbble">Localização</span></a></li>
 							</ul>
 						</nav>
@@ -149,11 +143,7 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
-								<p id="countdown"></p>
+								<h2 class="alt"><strong>Faltam</strong><p id="countdown"></p> para a gente fazer a maior festa! </p>
 							</header>
 							
 							<footer>
@@ -229,11 +219,11 @@
 								<h2>Confirmar Presença</h2>
 							</header>
 							
-							<p>Há várias formas de você confirmar sua presença no casamento: </n>
-								- Pessoalmente</n>
-								- Pelo Facebook do (<a href="https://www.facebook.com/dmmarcon"> Diego </a>) ou da (<a href="https://www.facebook.com/marilia.maioli"> Marília </a>)</n>
-								- Por telefone ou WhatsApp - Diego: (51) 8186-3387 / Marília: (51) 9979-1147</n>
-								- Por email - Diego: dm.marcon@gmail.com / Marília: mariliabmaioli@gmail.com</n>
+							<p>Há várias formas de você confirmar sua presença no casamento: </br>
+								- Pessoalmente</br>
+								- Pelo Facebook do (<a href="https://www.facebook.com/dmmarcon"> Diego </a>) ou da (<a href="https://www.facebook.com/marilia.maioli"> Marília </a>)</br>
+								- Por telefone ou WhatsApp - Diego: (51) 8186-3387 / Marília: (51) 9979-1147</br>
+								- Por email - Diego: dm.marcon@gmail.com / Marília: mariliabmaioli@gmail.com</br>
 								Por favor, não deixe de confirmar. Vamos reservar um lugar especial para você. :)</p>
 
 						</div>
@@ -244,13 +234,10 @@
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Lista de Presentes</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra 
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p>Sua presença já é o bastante! Caso queira contribuir com a nossa casa nova, acesse nossa <a href=""> Lista de Presentes</a> na loja online do Ponto Frio /p>
 							
 							<form method="post" action="#">
 								<div class="row 50%">
@@ -299,10 +286,11 @@
 								</div>
 							</div>
 
-							<p>Elementum sem parturient nulla quam placerat viverra 
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							<p>Escolhemos um lugar lindo para celebrar este dia. </br>
+								Alto da Capela </br>
+								Estrada Costa Gama, 3540 </br>
+								Porto Alegre </br>
+								Caso tenha alguma dúvida sobre como chegar lá, por favor entre em contato com os noivos que ficarão muito felizes em explicar o melhor caminho de onde você vem! </p>
 							<div id="map-canvas"></div>
 						</div>
 					</section>
