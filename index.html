@@ -72,14 +72,8 @@
 		            return;
 		        }
 		        var days = Math.floor(distance / _day);
-		        var hours = Math.floor((distance % _day) / _hour);
-		        var minutes = Math.floor((distance % _hour) / _minute);
-		        var seconds = Math.floor((distance % _minute) / _second);
-
 		        document.getElementById('countdown').innerHTML = days + 'dias ';
-		        document.getElementById('countdown').innerHTML += hours + 'horas ';
-		        document.getElementById('countdown').innerHTML += minutes + 'minutos ';
-		        document.getElementById('countdown').innerHTML += seconds + 'segundos';
+
 		    }
 
 		    timer = setInterval(showRemaining, 1000);
@@ -138,10 +132,11 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Casamento Marília e Diego</strong></br>
+								<h2 class="alt">Casamento </br>
+									Marília e Diego</strong></br>
 									28.02.2015
 								</h2>
-								<p>Faltam <p id="countdown"></p> para a gente fazer a maior festa!</p>
+								<p>Faltam <div id="countdown"></div> para a gente fazer a maior festa!</p>
 								
 							</header>
 							
